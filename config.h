@@ -70,6 +70,6 @@ static const struct arg args[] = {
   // WIP: Add OSS get volume feature
 	{ cpu_perc, "[CPU: %s%%] ",           NULL },
 	{ ram_perc, "[RAM: %s%%] ",           NULL },
-	{ battery_perc, "[BAT: %s%%] ",           "BAT0" },
+	{ battery_perc, "[BAT: %s%%] ",           NULL },
 	{ datetime, "%s",           "%a %b %d %r" },
 };
